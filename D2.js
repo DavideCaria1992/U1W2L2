@@ -55,7 +55,7 @@ if (totalShoppingCart < 50) {
 /* SCRIVI QUI LA TUA RISPOSTA */
 
 if (totalShoppingCart * 0.8 < 50) {
-  console.log(totalShoppingCart + 10)
+  console.log(totalShoppingCart *0.8 + 10)
 } else console.log(totalShoppingCart)
 
 /* ESERCIZIO 7
@@ -101,7 +101,7 @@ console.log(typeof drivingLicenceB) //boolean
 let num = 17
 if (num % 2 === 0) {
   console.log("num è un numero pari")
-} else console.log("num è un numero dispari")
+} else console.log("num è un numero dispari") //num è un numero dispari
 
 /* ESERCIZIO 10
   Modifica la logica del seguente algoritmo in modo che mostri in console il messaggio corretto in ogni circostanza.
@@ -122,23 +122,21 @@ if (val >= 5 && val < 10) {
   } else if (val < 5) {
     console.log("Meno di 5");
   } else {
-    console.log("Uguale a 10 o maggiore");
+    console.log("Uguale a 10 o maggiore"); //meno di 10
   }
 
 /* ESERCIZIO 11
   Fornito il seguente oggetto, scrivi del codice per aggiungere una proprietà "city", il cui valore sarà "Toronto".
 */
-
 const me = {
   name: 'John',
   lastName: 'Doe',
   skills: ['javascript', 'html', 'css'],
 }
 console.log(me)
-
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-me.notes = "city"
+me.city = "Toronto"
 console.log(me)
 
 /* ESERCIZIO 12
